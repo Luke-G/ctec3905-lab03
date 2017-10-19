@@ -12,6 +12,8 @@
   </style>
 </head>
 <body>
+  <!-- Task: Add an h1 tag above the first paragraph and get the user's name to appear there as well. -->
+  <h1><span id="name-heading"></span></h1>
   <p>Hello, <span id="my-name">anonymous user</span>!</p>
 
   <form id="get-name" action="#" method="post">
@@ -20,12 +22,14 @@
     <input type="submit">
   </form>
 
-  <!--
-    try loading the script tag inside the head section, then check the 
-    browser's JavaScript console (inspect element).
+  <form id="changeBackgroundCss" action="#" method="post">
+    <input type="radio" name="colour" value="blue"> Blue<br/>
+    <input type="radio" name="colour" value="green"> Green<br/>
+    <input type="radio" name="colour" value="red"> Red<br/>
+    <input type="radio" name="colour" value="white"> White<br/>
+    <input type="submit">
+  </form>
 
-    Can you work out what the problem is?
-  -->
   <script src="js/greeting.js"></script>
 </body>
 </html>
